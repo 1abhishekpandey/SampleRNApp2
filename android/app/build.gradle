@@ -266,6 +266,11 @@ android {
 
         }
     }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 // Apply static values from `gradle.properties` to the `android.packagingOptions`
